@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 using StarkSDKSpace;
 using TTSDK.UNBridgeLib.LitJson;
 
@@ -28,10 +29,10 @@ public class GameController : MonoBehaviour
     public GameObject gameOverPanel;                            //the gameOverPanel that hold the Game Over UI Image
     public GameObject[] blueXRegMode;                           //regular mode blue x's.  The 3 X's on the UI that you start with in RegularGameMode Mode
     public GameObject[] redXRegMode;                            //RegularGameMode mode red x's.  The XXX on the UI (under the Blue X's), that are show when you miss ball.
-    public Text regularModeText;                                //the txt that is the regular mode current store
-    public Text chillModeText;                                  //the txt that is the relax mode current store
-    public Text regularModeHighestText;                         //the txt that is the regular mode highest store
-    public Text chillModeHighestText;                           //the txt that is the relax mode highest store
+    public TMP_Text regularModeText;                                //the txt that is the regular mode current store
+    public TMP_Text chillModeText;                                  //the txt that is the relax mode current store
+    public TMP_Text regularModeHighestText;                         //the txt that is the regular mode highest store
+    public TMP_Text chillModeHighestText;                           //the txt that is the relax mode highest store
     public GameObject slicerGO;                                 //a reference to our osgTouchSlicer
     private bool gameHasStarted;                                //boolean game has started???
     public bool gameIsRunning;                                  //boolean game is running??
@@ -252,7 +253,7 @@ public class GameController : MonoBehaviour
                 //if three or more have been lost the game is over....
                 default:
                     //Debug.Log("3 or some other amount...");
-                    ShowInterstitialAd("3hai1a0e71d53t86r7",
+                    ShowInterstitialAd("uhim4ptwto16bq97b5",
                    () => {
                        Debug.LogError("--插屏广告完成--");
                        var data = new JsonData
@@ -312,7 +313,7 @@ public class GameController : MonoBehaviour
             //if roundTimer.timeLeft is less than or equal to 0.01 && gameHasStarted
             if (roundTimer.timeLeft <= 0.01 && gameHasStarted)
             {
-                    ShowInterstitialAd("3hai1a0e71d53t86r7",
+                    ShowInterstitialAd("uhim4ptwto16bq97b5",
                () => {
                    Debug.LogError("--插屏广告完成--");
                    var data = new JsonData
@@ -501,8 +502,7 @@ public class GameController : MonoBehaviour
                 //GameVariables.ChillModeScore = 0;
 
                 //then we call StartRelaxModeGame() and pass in true(hasTimer), and 90f(TimerTime)
-                StartChillModeGame(true, 10f);
-
+                StartChillModeGame(true, 90f);
                 //break... we are done.
                 break;
 

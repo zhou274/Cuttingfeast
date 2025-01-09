@@ -19,8 +19,7 @@ public class CountdownTimer : MonoBehaviour
     public Text uiText;                                 // the text component that will be displaying the timer.
     public Color startColor;                            // the start color of the timer text.
     public Color flashingColor;                         // the color of the text after you have reached the "timeTextStartsFlashing"...
-                                                        //      so the timer flashes and changes color.  (i.e. a green 60 sec timer
-                                                        //      starts flashing at 10 seconds remaining, and the color is now red, or orange.
+                                                         //      starts flashing at 10 seconds remaining, and the color is now red, or orange.
 
 
     // Use this for initialization

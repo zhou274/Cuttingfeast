@@ -555,7 +555,7 @@ public class SettingsAndPauseMenu : MonoBehaviour
     }
     public void ContinueLevel()
     {
-        ShowVideoAd("192if3b93qo6991ed0",
+        ShowVideoAd("dj56p13ao655866329",
             (bol) => {
                 if (bol)
                 {
@@ -576,7 +576,8 @@ public class SettingsAndPauseMenu : MonoBehaviour
 
                     //we change Static Var BallsMissed to zero...
                     GameVariables.BallsMissed = 0;
-                    PlayerPrefs.SetInt("GameVariables.ChillModeScore", GameVariables.ChillModeScore);
+                    //GameVariables.ChillModeScore
+                    PlayerPrefs.SetInt("ChillModeScore", GameVariables.ChillModeScore);
                     PlayerPrefs.SetInt("RegularModeScore", GameVariables.RegularModeScore);
                     //we call FadeAndReloadLevel() on our static reference Instance, of our screenFaderSingleton.
                     //ScreenFaderSingleton.Instance.FadeAndReloadLevel();

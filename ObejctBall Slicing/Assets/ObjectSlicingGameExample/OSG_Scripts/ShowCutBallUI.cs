@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 /// <summary>
 /// The ShowCutBallUI Class just handles what Current and Highest Score is displayed at the top left-hand corner of the screen.  The values
@@ -8,8 +9,8 @@ using UnityEngine.UI;
 /// </summary>
 public class ShowCutBallUI : MonoBehaviour
 {
-    public Text[] regularModeCutBallText;          // the Text elements for regular mode
-    public Text[] chillModeCutBallText;            // the Text elements for chill mode
+    public TMP_Text[] regularModeCutBallText;          // the Text elements for regular mode
+    public TMP_Text[] chillModeCutBallText;            // the Text elements for chill mode
 
 
     // Use this for initialization

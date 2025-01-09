@@ -299,7 +299,8 @@ public class BallDestroyCombo : MonoBehaviour
     /// </summary>
     public void ActivateAndTweenComboText()
     {
-        //have we destroyed 3 or more balls, and less than 10(we only have numbers 3-9 from a sprite standpoint.. would have to use text component or make additional
+        //have we destroyed 3 or more balls, and less than
+        //(we only have numbers 3-9 from a sprite standpoint.. would have to use text component or make additional
         //sprites to go higher... we aren't worried about that right now...)
         if(ballsDestroyedInTime > 2  && ballsDestroyedInTime < 10)
         {

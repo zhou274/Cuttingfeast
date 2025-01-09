@@ -222,6 +222,7 @@ public class ScreenFaderSingleton : Singleton<ScreenFaderSingleton>
     {
 #if UNITY_5_3_OR_NEWER
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
 #else
         Application.LoadLevel(Application.loadedLevel);
 #endif
@@ -247,6 +248,10 @@ public class ScreenFaderSingleton : Singleton<ScreenFaderSingleton>
     /// </summary>
     private void LoadMainMenu()
     {
+
+        GameVariables.RegularModeScore = 0;
+
+        GameVariables.ChillModeScore = 0;
 
 #if UNITY_5_3_OR_NEWER
         if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4)
