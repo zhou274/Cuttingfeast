@@ -15,7 +15,7 @@ C:/Users/Administrator/Downloads/Cuttingfeast-main/Cuttingfeast/Cuttingfeast/Obe
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51123
+53691
 Successfully changed project path to: C:/Users/Administrator/Downloads/Cuttingfeast-main/Cuttingfeast/Cuttingfeast/ObejctBall Slicing
 C:/Users/Administrator/Downloads/Cuttingfeast-main/Cuttingfeast/Cuttingfeast/ObejctBall Slicing
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ C:/Users/Administrator/Downloads/Cuttingfeast-main/Cuttingfeast/Cuttingfeast/Obe
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17556] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 742794298 [EditorId] 742794298 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22176] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 2714463890 [EditorId] 2714463890 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17556] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 742794298 [EditorId] 742794298 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22176] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 2714463890 [EditorId] 2714463890 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 73.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
 [Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
@@ -69,79 +69,79 @@ Initialize mono
 Mono path[0] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005202 seconds.
+Registered in 0.004976 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.835 seconds
 Domain Reload Profiling:
-	ReloadAssembly (832ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (836ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (121ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (333ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012110 seconds.
+Registered in 0.011030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.000 seconds
+- Completed reload, in  1.946 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2001ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1947ms)
+		BeginReloadAssembly (194ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1633ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1584ms)
+			LoadAssemblies (141ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (381ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (1008ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (980ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (849ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (815ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -149,13 +149,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3160 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (46.5 KB). Loaded Objects now: 3642.
-Memory consumption went from 117.4 MB to 117.4 MB.
-Total: 4.119100 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.197900 ms MarkObjects: 3.457200 ms  DeleteObjects: 0.089400 ms)
+Unloading 30 unused Assets / (47.1 KB). Loaded Objects now: 3635.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 4.048300 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.211700 ms MarkObjects: 3.389100 ms  DeleteObjects: 0.088500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,125 +171,453 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7680.764605 seconds.
-  path: Assets/Plugins/ByteGame/com.bytedance.starksdk/Editor/com.bytedance.ttsdk-editor.asmdef
-  artifactKey: Guid(cf3b67e6dba796145879691872c9c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 22318.103167 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Scenes/OSG_ReleaseScenes/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png
+  artifactKey: Guid(2d070728770a19443a9ed03e88460ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/ByteGame/com.bytedance.starksdk/Editor/com.bytedance.ttsdk-editor.asmdef using Guid(cf3b67e6dba796145879691872c9c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5cec524db1b2d5fd4c58dd16d3496') in 0.025626 seconds 
+Start importing Assets/ObjectSlicingGameExample/OSG_Scenes/OSG_ReleaseScenes/市场营销_ 媒体_ 运动员_ 社交的_ 视频_ 网站_ Yo_爱给网_aigei_com.png using Guid(2d070728770a19443a9ed03e88460ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84b62877f33be481d11c1d878f410d2') in 0.190597 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.792796 seconds.
+  path: Assets/cebianlan.png
+  artifactKey: Guid(e88b56567c07480478bac714aeae9b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/cebianlan.png using Guid(e88b56567c07480478bac714aeae9b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185cddb8ce157b948a8c376d65e76408') in 0.075221 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MIAOZIDONGMANTI-REGULAR.TTF
+  artifactKey: Guid(d9aafdf0fa9e8d7468813bf707fc1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MIAOZIDONGMANTI-REGULAR.TTF using Guid(d9aafdf0fa9e8d7468813bf707fc1c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134550e5ba9877231dbde591b582881d') in 0.061127 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MIAOZIDONGMANTI-REGULAR SDF.asset
+  artifactKey: Guid(c35f0c15731809e41ba60c4e11cbe371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MIAOZIDONGMANTI-REGULAR SDF.asset using Guid(c35f0c15731809e41ba60c4e11cbe371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f3cf9df3e95977b37db58e7e610b2b') in 0.055135 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.053859 seconds.
+  path: Assets/ObjectSlicingGameExample
+  artifactKey: Guid(ca4aa3ea000b959458c1f862845db81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample using Guid(ca4aa3ea000b959458c1f862845db81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50b607974c5a597fd3858c64f75b17b') in 0.003068 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/ParticleSliceLine.mat
-  artifactKey: Guid(5880cf24f2046f047b53a595cf8532f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 14.485192 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Sounds
+  artifactKey: Guid(d76ee888aaf197445b456dd105839471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/ParticleSliceLine.mat using Guid(5880cf24f2046f047b53a595cf8532f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3375bc10f2f27bf797e5543ab15eb46') in 0.127348 seconds 
+Start importing Assets/ObjectSlicingGameExample/OSG_Sounds using Guid(d76ee888aaf197445b456dd105839471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624f48cadd0ecca4cc47817d2a77910e') in 0.002011 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.714895 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_UnityAnimations
+  artifactKey: Guid(a0a6e50004b6a4f4f849fa8efb04187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_UnityAnimations using Guid(a0a6e50004b6a4f4f849fa8efb04187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa205e631d3a46c829f21fadc9165ce8') in 0.002085 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.763779 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Scripts
+  artifactKey: Guid(bfc67a19e20a7c64a82f23cdf8dea3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Scripts using Guid(bfc67a19e20a7c64a82f23cdf8dea3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7f9c66bd85868c73851c53300e9878') in 0.002228 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.419350 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Shaders
+  artifactKey: Guid(3070271c07ad1574d903276ba71225ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Shaders using Guid(3070271c07ad1574d903276ba71225ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e364d427c41297474702dda701db8') in 0.002094 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.739799 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_DocsAndAbout
+  artifactKey: Guid(d960a64d39f1c764da16536651c200fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_DocsAndAbout using Guid(d960a64d39f1c764da16536651c200fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe860780dc63cf7d484fe8efd7e174c9') in 0.002018 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.200046 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_DocsAndAbout/UnitCircle.png
+  artifactKey: Guid(a82207f529760d44595cbc09dd839198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_DocsAndAbout/UnitCircle.png using Guid(a82207f529760d44595cbc09dd839198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a979f2691af5e4a6b583efeb60b2fc') in 0.018231 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.092448 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models
+  artifactKey: Guid(06a8a0cdb69d86f48a61da1251e7253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models using Guid(06a8a0cdb69d86f48a61da1251e7253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b38631ef8b8a62acd66711811fd892') in 0.002286 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.457409 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_PhysMaterials
+  artifactKey: Guid(4be0bf4dd2706cf4e897d8fe66f335b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_PhysMaterials using Guid(4be0bf4dd2706cf4e897d8fe66f335b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14944d563cbc2d5c0d815f6946756eaf') in 0.002006 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077378 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_PhysMaterials/Wood.physicmaterial
+  artifactKey: Guid(23759a44c3da7234ba6b24b0355628b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_PhysMaterials/Wood.physicmaterial using Guid(23759a44c3da7234ba6b24b0355628b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd0dc7c68a2f604ecc66f46f5ccf153') in 0.006330 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.009545 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/OSG_BallMeshes_Final.fbx
+  artifactKey: Guid(7ecdc7cb13abbcd4aa69a3d36fc1ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/OSG_BallMeshes_Final.fbx using Guid(7ecdc7cb13abbcd4aa69a3d36fc1ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebb00f3072dd0ecb103477fed81a767') in 1.097440 seconds 
+Number of asset objects unloaded after import = 391
+========================================================================
+Received Import Request.
+  Time since last request: 2.007261 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials
+  artifactKey: Guid(3812e16cde6540f4ba49cc2be15ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials using Guid(3812e16cde6540f4ba49cc2be15ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff1b42ee9e1092f79e9173388136e71') in 0.002231 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.069817 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/0254.mat
+  artifactKey: Guid(36c55d8c09ef4064dafc43e47fddc406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/0254.mat using Guid(36c55d8c09ef4064dafc43e47fddc406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1eaaf9ab0a0c4baf4fc81209fbab506') in 0.059427 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/BoundaryMaterials.mat
+  artifactKey: Guid(b00f3ee1626dad143898af5f642a80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/BoundaryMaterials.mat using Guid(b00f3ee1626dad143898af5f642a80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382411a8ba94bfc29562f9d14bd1957') in 0.039122 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/LP_SwordMat.001.mat
+  artifactKey: Guid(d4005b2ca37af0149ad8cfbe711291d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/LP_SwordMat.001.mat using Guid(d4005b2ca37af0149ad8cfbe711291d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b028d1f3e19482e3c1b41621fd8431b') in 0.124722 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/GearMat.mat
+  artifactKey: Guid(c02ba7ed329b00940adf7fdec14339eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/GearMat.mat using Guid(c02ba7ed329b00940adf7fdec14339eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd457fa48414f0518bd3d3bd761ac089c') in 0.086866 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/BombMaterial.mat
+  artifactKey: Guid(efedd8388b01c974c95d90d9e7dbb797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/BombMaterial.mat using Guid(efedd8388b01c974c95d90d9e7dbb797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a6641880ff78557aaa241552f5c582') in 0.008105 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.114173 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures
+  artifactKey: Guid(16a9774aa12158c44b46abcf74bc4405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures using Guid(16a9774aa12158c44b46abcf74bc4405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f0d1a0cc0bbf6d9bb7cf813e05b067') in 0.001801 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058507 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/0391.png
+  artifactKey: Guid(b438dd602101bec499f53cfde863751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/0391.png using Guid(b438dd602101bec499f53cfde863751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8a77ef982167ee255a95883f5119dc') in 0.025303 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_2Two_texture.png
+  artifactKey: Guid(d4d962a72b0c90b4d9ffe05193d730f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_2Two_texture.png using Guid(d4d962a72b0c90b4d9ffe05193d730f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c61abf492f0544f812bd60931cbbc15') in 0.006971 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/OSG_Icon_144px.png
+  artifactKey: Guid(a9593dc041a5b6d4b9faf53305f10760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/OSG_Icon_144px.png using Guid(a9593dc041a5b6d4b9faf53305f10760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4839976fbc81ada4c1a896a5d51ea8ae') in 0.008582 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/RoundAnyDrop.png
+  artifactKey: Guid(414275cffb085b8478a01cf82fbd0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/RoundAnyDrop.png using Guid(414275cffb085b8478a01cf82fbd0a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d84c7953924e606e77eed6ee8a1d40') in 0.008146 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BurstRing.png
+  artifactKey: Guid(c62a85ae50e9b34469f1e2c4639887ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BurstRing.png using Guid(c62a85ae50e9b34469f1e2c4639887ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68dc66d33ac90e9a681e16ea76f8720') in 0.034579 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/HBB.png
+  artifactKey: Guid(949eb23c4ba84c0458f91cb86a5a2cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/HBB.png using Guid(949eb23c4ba84c0458f91cb86a5a2cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bc4be58d0d1fdfccb0877e7525f5e2') in 0.111951 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/GameModeLabels2.png
+  artifactKey: Guid(0567255fcc234fb42910347462b1f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/GameModeLabels2.png using Guid(0567255fcc234fb42910347462b1f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120dc874f0de032e627929057b35c6da') in 0.047510 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/NewTestBlade.png
+  artifactKey: Guid(b1384dd2fe804b64b81040447e5e7297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/NewTestBlade.png using Guid(b1384dd2fe804b64b81040447e5e7297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70880ab17b496557414ccd404b53ce9e') in 0.006834 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_1One_texture.png
+  artifactKey: Guid(7a9fd9abc8ee13b4aaadf9a75112cd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_1One_texture.png using Guid(7a9fd9abc8ee13b4aaadf9a75112cd39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4bc6934d3f5beb410d7385ad582f18') in 0.007099 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_4Four_texture.png
+  artifactKey: Guid(4b05238c34f36754baf78c35a4bde171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Dojo_4Four_texture.png using Guid(4b05238c34f36754baf78c35a4bde171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b72cd42962d5896236742667482c85') in 0.007226 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/OSG_Icon_96px.png
+  artifactKey: Guid(ac4bdf901794d244babcbed2cd1fc160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/OSG_Icon_96px.png using Guid(ac4bdf901794d244babcbed2cd1fc160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0b63c3580856ab197e7b3942133126') in 0.008062 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/WideStar_Glow_2.png
+  artifactKey: Guid(365df77119cb72043acc93aaf078b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/WideStar_Glow_2.png using Guid(365df77119cb72043acc93aaf078b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea169bf98354617ec596e5ed1ecbd6') in 0.028156 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BGGradient.png
+  artifactKey: Guid(08bb58c0060bdef4793793f7d87a656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BGGradient.png using Guid(08bb58c0060bdef4793793f7d87a656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01461c4a65a97220a90537a98656784f') in 0.029453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BlastStar.png
+  artifactKey: Guid(c3b28bff9bc2219419d1cf431069370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/BlastStar.png using Guid(c3b28bff9bc2219419d1cf431069370c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7af835dea4676ec4e6369bd12ca4deb') in 0.024240 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Fire_1.png
+  artifactKey: Guid(7aa08deb1887e0f4fbb064f79f311a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Fire_1.png using Guid(7aa08deb1887e0f4fbb064f79f311a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b02f04faa063c48a5d9542771c18ad') in 0.035151 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001891 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Sheath_TextureAttemptThree.png
+  artifactKey: Guid(20e4815c0cd9671459caa3670a2220da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/Sheath_TextureAttemptThree.png using Guid(20e4815c0cd9671459caa3670a2220da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e103c13cb032aa636ad0f63f2c7209f6') in 0.007522 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/GlowRing.png
+  artifactKey: Guid(f7edbfbc58e5ce2489ee67962fb040b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/GlowRing.png using Guid(f7edbfbc58e5ce2489ee67962fb040b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4011d60a1632ab7a2b2d35ca0817b2e3') in 0.015576 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/EditorArrowsControllerGear.png
+  artifactKey: Guid(3c1f3c8e1c010a84d8e496e02a5deef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/EditorArrowsControllerGear.png using Guid(3c1f3c8e1c010a84d8e496e02a5deef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af7d3b1b8c842525758ba47d5555295') in 0.008537 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/VignetteRegTexture_4.png
+  artifactKey: Guid(090cad524d3e898458699ed68b8e8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Models/Materials/Textures/VignetteRegTexture_4.png using Guid(090cad524d3e898458699ed68b8e8f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f73481a56afba2a9bbeb8da33b2dde') in 0.063274 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 58.259575 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Fonts/请在最短的时间内切最多的水果.png
+  artifactKey: Guid(0ad4608c913fae14b8ef0ecb57554065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Fonts/请在最短的时间内切最多的水果.png using Guid(0ad4608c913fae14b8ef0ecb57554065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf47b5f4b7ca9fc4d2f2ab7da958701') in 0.036628 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.196387 seconds.
+  path: Assets/ObjectSlicingGameExample/OSG_Sounds/SelfRecordedThud(FruitLauncher)_PublicDomain.wav
+  artifactKey: Guid(f320db7fd085630459199d0117f79299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ObjectSlicingGameExample/OSG_Sounds/SelfRecordedThud(FruitLauncher)_PublicDomain.wav using Guid(f320db7fd085630459199d0117f79299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279d7a118dac24ba19bfe89ac568bca2') in 0.046359 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013683 seconds.
+Registered in 0.012954 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.887 seconds
+- Completed reload, in  1.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1888ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1928ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1594ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (769ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3718.
+Memory consumption went from 120.8 MB to 120.8 MB.
+Total: 3.660900 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.190900 ms MarkObjects: 3.098800 ms  DeleteObjects: 0.020100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1925ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (129ms)
+		EndReloadAssembly (1546ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (954ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (951ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (797ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3686.
-Memory consumption went from 120.2 MB to 120.2 MB.
-Total: 5.837400 ms (FindLiveObjects: 0.491200 ms CreateObjectMapping: 0.203700 ms MarkObjects: 5.102300 ms  DeleteObjects: 0.038900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014162 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1878ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1536ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (931ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (774ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (790ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3689.
-Memory consumption went from 120.2 MB to 120.2 MB.
-Total: 3.734000 ms (FindLiveObjects: 0.356500 ms CreateObjectMapping: 0.189400 ms MarkObjects: 3.163400 ms  DeleteObjects: 0.023500 ms)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3721.
+Memory consumption went from 120.8 MB to 120.8 MB.
+Total: 3.823900 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.211200 ms MarkObjects: 3.210400 ms  DeleteObjects: 0.020100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
